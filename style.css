@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  /* position: relative;
+  
+  overflow-x: hidden; */
+}
+
+.text-image {
+  background-image: url(images/lucas-kapla-wQLAGv4_OYs-unsplash\(1\).jpg);
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center;
+}
+
+ion-icon {
+  background-color: red;
+  background-image: url('images/lucas-kapla-wQLAGv4_OYs-unsplash\(1\).jpg');
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center;
+}
+
+.background_image {
+  background-image: url('images/lucas-kapla-wQLAGv4_OYs-unsplash\(1\).jpg');
+  background-position: center;
+  /* z-index: -10; */
+}
+
+
+
+#nav {
+  transition: all ease-in-out .7s;
+}
+
+.toggle {
+  top: -400px;
+  transition: all 1s;
+}
+
+.btn{
+  /* position: relative;
+  display: block;
+  border: 4px solid ;
+  border-radius: 20px; */
+  /* border-image: url('images/lucas-kapla-wQLAGv4_OYs-unsplash\(1\).jpg') 1; */
+}
+
+
+.btn::before{
+  /* content : '';
+  width: 92%;
+  height: 92%;
+  background-color: white;
+  position: absolute;
+  left: 3px;
+  top: 1.5px;
+  border-radius: 5px;
+  z-index: -1; */
+  background-image: url(images/lucas-kapla-wQLAGv4_OYs-unsplash\(1\).jpg);
+  background-clip: padding-box;
+  padding: 1rem;
+}
+
+.text-shodow {
+  color: #f0f0f0;
+
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.hoveranimation{
+  position: absolute;
+  z-index: 0;
+}
+
+.text-image-2{
+  background-image: url(images/steve-johnson-t13sV9HgLTM-unsplash.jpg);
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center;
+}
+
+.box{
+  position: absolute;
+  z-index: 1000;
+  bottom: 140px;
+  right: 10;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+}
